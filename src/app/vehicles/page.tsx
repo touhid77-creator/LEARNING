@@ -36,7 +36,7 @@ export default function VehiclesPage() {
           <Reveal delay={0.2}>
             <p className="mx-auto mt-14 max-w-2xl text-center text-sm leading-relaxed text-ocean-800/60">
               Not sure which one fits? Tell us your group size and what the day looks like —
-              sightseeing, a temple tour, an airport run — and we'll suggest one.
+              sightseeing, a temple tour, an airport run — and we&apos;ll suggest one.
             </p>
           </Reveal>
         </Container>

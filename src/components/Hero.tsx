@@ -17,7 +17,7 @@ const container = {
 
 const item = {
   hidden: { opacity: 0, y: 22 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] } },
+  show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] as const } },
 };
 
 export function Hero() {
@@ -26,7 +26,7 @@ export function Hero() {
       <motion.div
         initial={{ scale: 1.08 }}
         animate={{ scale: 1 }}
-        transition={{ duration: 2.2, ease: [0.22, 1, 0.36, 1] }}
+        transition={{ duration: 2.2, ease: [0.22, 1, 0.36, 1] as const }}
         className="absolute inset-0"
       >
         <Image

@@ -30,7 +30,7 @@ export default function NotFound() {
           This road doesn&apos;t go there.
         </h1>
         <p className="mx-auto mt-5 max-w-md text-balance leading-relaxed text-pearl/75">
-          The page you're looking for isn't here. Let's get you back on route.
+          The page you&apos;re looking for isn&apos;t here. Let&apos;s get you back on route.
         </p>
         <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
           <Button href="/" size="lg">
