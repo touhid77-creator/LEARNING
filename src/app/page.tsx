@@ -114,7 +114,7 @@ export default function HomePage() {
             <Reveal>
               <PlaneIcon className="h-8 w-8 text-gold-300" />
               <h2 className="mt-6 text-balance text-3xl leading-tight md:text-4xl">
-                Landing at Mangaluru Airport? We'll be at arrivals.
+                Landing at Mangaluru Airport? We&apos;ll be at arrivals.
               </h2>
               <p className="mt-5 max-w-md text-balance leading-relaxed text-pearl/75">
                 Direct transfers between Mangaluru International Airport (IXE) and Udupi,

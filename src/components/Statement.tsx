@@ -12,8 +12,8 @@ export function Statement() {
       <div className="container-editorial relative">
         <Reveal>
           <p className="max-w-2xl text-balance font-display text-3xl leading-[1.25] text-ocean-900 md:text-4xl">
-            Most taxi numbers in Udupi put you through to whoever's free.
-            Ours doesn't, because there's only two cars and one person
+            Most taxi numbers in Udupi put you through to whoever&apos;s free.
+            Ours doesn&apos;t, because there&apos;s only two cars and one person
             answering the phone.
           </p>
         </Reveal>

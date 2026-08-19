@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { clsx } from "clsx";
-import { siteConfig } from "@/lib/site-config";
 import { buildTelLink, buildWhatsAppLink } from "@/lib/whatsapp";
 import { MenuIcon, CloseIcon, PhoneIcon, WhatsAppIcon } from "@/components/ui/Icons";
 import { Button } from "@/components/ui/Button";
@@ -21,10 +20,12 @@ const links = [
 export function Nav() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
+  const [prevPathname, setPrevPathname] = useState(pathname);
 
-  useEffect(() => {
+  if (prevPathname !== pathname) {
+    setPrevPathname(pathname);
     setOpen(false);
-  }, [pathname]);
+  }
 
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
